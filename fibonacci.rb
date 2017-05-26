@@ -11,8 +11,5 @@ def fibs_rec(final, result = [0,1])
   result
 end
 
-puts fib(11)
-
-puts '------'
-
-puts fibs_rec(11)
+puts fib(11).join(', ')
+puts fibs_rec(11).join(', ')
